@@ -1,6 +1,6 @@
 """Demo: Run prism-analyze on monthly AI job postings (2020–2026).
 
-https://www.kaggle.com/datasets/alitaqishah/ai-jobs-market-2025-2026-salaries
+https://www.kaggle.com/datasets/shree0910/ai-and-data-science-job-market-dataset-20202026
 This is an intentionally relevant dataset — AI job market demand should
 plausibly respond to major LLM/AI model launches. We test whether catalog
 inflection points align with structural breaks in hiring volume.
