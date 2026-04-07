@@ -46,8 +46,7 @@ The primary output is a **comparison matrix** — one row per catalog inflection
 ## Install
 
 ```bash
-git clone https://github.com/yourname/prism-analyze
-cd prism-analyze
+git clone https://github.com/ouspg/PRISM && cd PRISM/prism-analyze
 uv sync
 ```
 

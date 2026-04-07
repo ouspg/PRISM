@@ -65,7 +65,7 @@ The pre\_ai cohort (71.1%) well exceeds the 40% minimum needed for the treated g
 ## Quickstart
 
 ```bash
-git clone <repo-url> && cd PRISM/prism-collect
+git clone https://github.com/ouspg/PRISM && cd PRISM/prism-collect
 cp .env.example .env
 # Edit .env -- set GITHUB_PAT to a GitHub PAT with repo + read:org scope
 
