@@ -1,0 +1,38 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.venv/
+
+# Data (collected CSVs can be large — track via DVC or similar)
+example/github_prs/
+
+# Tools / caches
+.ruff_cache/
+.mypy_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Editors
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+
+# Docker
+.pgdata/
+
+# Claude Code
+.claude/
+
+# OS
+.DS_Store
+Thumbs.db
