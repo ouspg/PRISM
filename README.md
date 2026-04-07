@@ -2,14 +2,14 @@
 
 **Platform for Repository Intelligence and Software Metrics**
 
-PRISM is a suite of tools for studying how AI-mediated contributions reshape open-source ecosystems. It tracks ~1,380 GitHub repositories across six analytical domains and five temporal cohorts spanning from pre-AI (before Copilot GA) to the present.
+PRISM is a suite of tools for studying the impact of AI inflection points on measurable outcomes. The primary application is open-source software development — tracking ~1,380 GitHub repositories across six analytical domains and five temporal cohorts — but the analysis tools are data-agnostic and can be applied to any time-series data (financial markets, job postings, industry trends, etc.).
 
 ## Tools
 
 | Tool | Description |
 |------|-------------|
 | [`prism-collect`](prism-collect/) | Data collection engine — mirrors PR metadata and repository snapshots from the GitHub GraphQL API into a local PostgreSQL database |
-| `prism-analyze` | _(coming soon)_ Statistical analysis and feature engineering on collected data |
+| [`prism-analyze`](prism-analyze/) | Statistical analysis engine — detects whether AI inflection points caused structural breaks in any time-series data (ITS, DiD, Bai-Perron) |
 | `prism-dashboard` | _(coming soon)_ Visualization and reporting interface |
 
 ## Repository structure
@@ -17,7 +17,7 @@ PRISM is a suite of tools for studying how AI-mediated contributions reshape ope
 ```
 PRISM/
 ├── prism-collect/   # Collection engine (CLI + PostgreSQL backend)
-├── prism-analyze/   # Analysis pipeline
+├── prism-analyze/   # Analysis engine (ITS / DiD / structural break detection)
 └── prism-dashboard/ # Dashboard / reporting
 ```
 

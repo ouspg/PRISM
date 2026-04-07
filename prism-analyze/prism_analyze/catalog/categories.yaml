@@ -1,0 +1,47 @@
+categories:
+  ai-coding-assistant:
+    label: "AI Coding Assistant"
+    subcategories:
+      - code-completion
+      - code-generation
+      - code-review
+      - code-chat
+
+  llm-general:
+    label: "General-Purpose LLM"
+    subcategories:
+      - chatbot
+      - api-release
+      - open-weights
+
+  ai-image:
+    label: "AI Image Generation"
+    subcategories:
+      - image-generation
+      - image-editing
+
+  ai-code-review:
+    label: "AI Code Review"
+    subcategories:
+      - automated-review
+      - vulnerability-detection
+
+  ai-infrastructure:
+    label: "AI Infrastructure"
+    subcategories:
+      - compute
+      - training-framework
+      - serving
+
+  ai-search:
+    label: "AI-Powered Search"
+    subcategories:
+      - code-search
+      - web-search
+
+  ai-agents:
+    label: "AI Agents"
+    subcategories:
+      - coding-agent
+      - general-agent
+      - browser-agent

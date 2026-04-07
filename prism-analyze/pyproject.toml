@@ -1,0 +1,31 @@
+[project]
+name = "prism-analyze"
+version = "0.1.0"
+description = "ITS/DiD analysis engine for detecting AI inflection points in time-series data"
+readme = "README.md"
+license = "AGPL-3.0-or-later"
+requires-python = ">=3.11"
+dependencies = [
+    "linearmodels>=7.0",
+    "matplotlib>=3.10.8",
+    "numpy>=2.4.4",
+    "pandas>=3.0.2",
+    "pydantic>=2.12.5",
+    "pyyaml>=6.0.3",
+    "ruptures>=1.1.10",
+    "scipy>=1.17.1",
+    "statsmodels>=0.14.6",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["prism_analyze"]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.0.3",
+    "pytest-cov>=7.1.0",
+]

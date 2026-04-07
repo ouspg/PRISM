@@ -1,0 +1,244 @@
+inflection_points:
+
+  # Era 1 — Code Completion
+
+  - id: "INFL-01"
+    date: "2021-06-29"
+    label: "GitHub Copilot technical preview"
+    category: "ai-coding-assistant"
+    subcategory: "code-completion"
+    scope: "global"
+    confidence: "high"
+    tier: 1
+    era: "Era 1 — Code Completion"
+    evidence_url: "https://github.blog/news-insights/product-news/introducing-github-copilot-ai-pair-programmer/"
+    tags: ["copilot", "github", "microsoft"]
+
+  - id: "INFL-02"
+    date: "2022-06-21"
+    label: "GitHub Copilot general availability"
+    category: "ai-coding-assistant"
+    subcategory: "code-completion"
+    scope: "global"
+    confidence: "high"
+    tier: 1
+    era: "Era 1 — Code Completion"
+    evidence_url: "https://github.blog/news-insights/product-news/github-copilot-is-generally-available-to-all-developers/"
+    tags: ["copilot", "github", "microsoft"]
+
+  - id: "INFL-03"
+    date: "2022-11-30"
+    label: "ChatGPT public release"
+    category: "llm-general"
+    subcategory: "chatbot"
+    scope: "global"
+    confidence: "high"
+    tier: 1
+    era: "Era 1 — Code Completion"
+    evidence_url: "https://openai.com/index/chatgpt/"
+    tags: ["openai", "chatgpt", "gpt-3.5"]
+
+  - id: "INFL-04"
+    date: "2023-03-14"
+    label: "GPT-4 release"
+    category: "llm-general"
+    subcategory: "api-release"
+    scope: "global"
+    confidence: "high"
+    tier: 1
+    era: "Era 1 — Code Completion"
+    evidence_url: "https://openai.com/index/gpt-4/"
+    tags: ["openai", "gpt-4"]
+
+  - id: "INFL-05"
+    date: "2023-06-01"
+    label: "Copilot 1M subscribers (approx.)"
+    category: "ai-coding-assistant"
+    subcategory: "code-completion"
+    scope: "global"
+    confidence: "medium"
+    tier: 2
+    era: "Era 1 — Code Completion"
+    tags: ["copilot", "github", "adoption"]
+    notes: "Approximate date; milestone reported in mid-2023."
+
+  # Era 2 — Chat and Workspace
+
+  - id: "INFL-06"
+    date: "2023-12-29"
+    label: "Copilot Chat general availability"
+    category: "ai-coding-assistant"
+    subcategory: "code-chat"
+    scope: "global"
+    confidence: "high"
+    tier: 1
+    era: "Era 2 — Chat and Workspace"
+    evidence_url: "https://github.blog/news-insights/product-news/github-copilot-chat-beta-now-available-for-every-organization/"
+    tags: ["copilot", "github", "chat"]
+
+  - id: "INFL-07"
+    date: "2024-03-12"
+    label: "Devin announcement"
+    category: "ai-agents"
+    subcategory: "coding-agent"
+    scope: "global"
+    confidence: "high"
+    tier: 1
+    era: "Era 2 — Chat and Workspace"
+    evidence_url: "https://www.cognition.ai/introducing-devin"
+    tags: ["cognition", "devin", "agents"]
+
+  - id: "INFL-08"
+    date: "2024-04-29"
+    label: "Copilot Workspace preview"
+    category: "ai-agents"
+    subcategory: "coding-agent"
+    scope: "global"
+    confidence: "high"
+    tier: 1
+    era: "Era 2 — Chat and Workspace"
+    evidence_url: "https://github.blog/news-insights/product-news/github-copilot-workspace/"
+    tags: ["copilot", "github", "workspace"]
+
+  - id: "INFL-09"
+    date: "2024-06-20"
+    label: "Claude 3.5 Sonnet release"
+    category: "llm-general"
+    subcategory: "api-release"
+    scope: "global"
+    confidence: "high"
+    tier: 1
+    era: "Era 2 — Chat and Workspace"
+    evidence_url: "https://www.anthropic.com/news/claude-3-5-sonnet"
+    tags: ["anthropic", "claude-3.5", "sonnet"]
+
+  - id: "INFL-10"
+    date: "2024-07-01"
+    label: "SWE-agent ecosystem maturity"
+    category: "ai-agents"
+    subcategory: "coding-agent"
+    scope: "global"
+    confidence: "medium"
+    tier: 2
+    era: "Era 2 — Chat and Workspace"
+    tags: ["swe-agent", "princeton", "oss-agents"]
+    notes: "Approximate date marking broad ecosystem recognition of SWE-bench agents."
+
+  # Era 3 — IDE and Open-Source Agent
+
+  - id: "INFL-11"
+    date: "2024-08-15"
+    label: "Cursor breakout"
+    category: "ai-coding-assistant"
+    subcategory: "code-completion"
+    scope: "global"
+    confidence: "medium"
+    tier: 2
+    era: "Era 3 — IDE and Open-Source Agent"
+    tags: ["cursor", "anysphere", "ide"]
+    notes: "Approximate date marking Cursor's breakout growth phase."
+
+  - id: "INFL-12"
+    date: "2024-10-29"
+    label: "Copilot 1.8M subscribers"
+    category: "ai-coding-assistant"
+    subcategory: "code-completion"
+    scope: "global"
+    confidence: "high"
+    tier: 1
+    era: "Era 3 — IDE and Open-Source Agent"
+    tags: ["copilot", "github", "adoption"]
+
+  - id: "INFL-13"
+    date: "2025-02-05"
+    label: "Vibecoding coined (Karpathy)"
+    category: "ai-coding-assistant"
+    subcategory: "code-generation"
+    scope: "global"
+    confidence: "high"
+    tier: 1
+    era: "Era 3 — IDE and Open-Source Agent"
+    tags: ["karpathy", "vibecoding", "cultural"]
+    notes: "Andrej Karpathy coined 'vibecoding' on X, marking a cultural shift in AI-assisted development."
+
+  - id: "INFL-14"
+    date: "2025-03-15"
+    label: "OpenHands breakout"
+    category: "ai-agents"
+    subcategory: "coding-agent"
+    scope: "global"
+    confidence: "medium"
+    tier: 2
+    era: "Era 3 — IDE and Open-Source Agent"
+    tags: ["openhands", "all-hands", "oss-agents"]
+
+  - id: "INFL-15"
+    date: "2025-08-01"
+    label: "Harness-wars peak"
+    category: "ai-agents"
+    subcategory: "coding-agent"
+    scope: "global"
+    confidence: "low"
+    tier: 3
+    era: "Era 3 — IDE and Open-Source Agent"
+    tags: ["harness", "agents", "ecosystem"]
+    notes: "Descriptive context only; marks peak competition among agentic coding harnesses."
+
+  # Era 4 — Frontier Agentic
+
+  - id: "INFL-16"
+    date: "2025-09-29"
+    label: "Claude Sonnet 4.5 release"
+    category: "llm-general"
+    subcategory: "api-release"
+    scope: "global"
+    confidence: "high"
+    tier: 1
+    era: "Era 4 — Frontier Agentic"
+    tags: ["anthropic", "claude-4", "sonnet"]
+
+  - id: "INFL-17"
+    date: "2025-10-15"
+    label: "Terminal agents breakout"
+    category: "ai-agents"
+    subcategory: "coding-agent"
+    scope: "global"
+    confidence: "medium"
+    tier: 2
+    era: "Era 4 — Frontier Agentic"
+    tags: ["terminal-agents", "cli", "agents"]
+    notes: "Approximate date marking broad adoption of terminal-based AI coding agents."
+
+  - id: "INFL-18"
+    date: "2025-11-24"
+    label: "Claude Opus 4.5 release"
+    category: "llm-general"
+    subcategory: "api-release"
+    scope: "global"
+    confidence: "high"
+    tier: 1
+    era: "Era 4 — Frontier Agentic"
+    tags: ["anthropic", "claude-4", "opus"]
+
+  - id: "INFL-19"
+    date: "2026-01-15"
+    label: "OpenClaw wide adoption"
+    category: "ai-agents"
+    subcategory: "coding-agent"
+    scope: "global"
+    confidence: "high"
+    tier: 1
+    era: "Era 4 — Frontier Agentic"
+    tags: ["openclaw", "agents"]
+
+  - id: "INFL-20"
+    date: "2026-03-01"
+    label: "Agentic normalisation"
+    category: "ai-agents"
+    subcategory: "general-agent"
+    scope: "global"
+    confidence: "low"
+    tier: 3
+    era: "Era 4 — Frontier Agentic"
+    tags: ["agentic", "normalisation"]
+    notes: "Descriptive context only; marks the point at which agentic AI coding became an industry baseline."
